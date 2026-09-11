@@ -167,7 +167,7 @@ function gradePart2() {
     const chosenId = state.answers[q.id];
     const chosen = q.options.find((o) => o.id === chosenId);
     const correct = q.options.find((o) => o.ok);
-    const ok = Boolean(chosen && chosen.ok);
+    const ok = Boolean(chosenId && correct && chosenId === correct.id);
     return {
       num: i + 1,
       id: q.id,
