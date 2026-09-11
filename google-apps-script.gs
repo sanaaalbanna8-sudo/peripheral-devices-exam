@@ -1,20 +1,16 @@
 /**
  * امتحان الأجهزة الطرفية والوسائط — نتائج مستقلة عن امتحان الأجهزة الرقمية.
+ * الجدول:
+ * https://docs.google.com/spreadsheets/d/1b3kWogml9sIt4m9IXWpxw0YS_ZX_Eh4RhGXVbBaxyvA/edit
  *
- * 1) أنشئ جدول Google Sheets جديدًا لهذا الامتحان فقط.
- * 2) Extensions → Apps Script
- * 3) الصقي هذا الملف كاملًا.
- * 4) ضعي معرف الجدول بين علامتي الاقتباس في SHEET_ID
- *    (من رابط الجدول: /d/THIS_PART/edit)
- * 5) نشر → نشر جديد → تطبيق ويب
- *    التنفيذ: أنا  |  من يمكنه الوصول: أي شخص
- * 6) انسخي رابط /exec والصقيه في js/config.js داخل sheetsUrl
+ * الأسهل: أضيفي هذا النوع إلى سكربت الأجهزة الرقمية المنشور أصلًا
+ * (انظر digital-devices-exam/google-apps-script.gs) ثم أصدري إصدارًا جديدًا.
  *
- * إذا أضفتِ هذا إلى سكربت قديم فيه doPost، انسخي دالة writePeripherals_
- * وأضيفي الفرع: else if (kind === "peripherals") writePeripherals_(ss, data);
+ * أو من هذا الجدول: Extensions → Apps Script → الصقي الملف → نشر تطبيق ويب
+ * التنفيذ: أنا  |  من يمكنه الوصول: أي شخص
  */
 
-var SHEET_ID = "";
+var SHEET_ID = "1b3kWogml9sIt4m9IXWpxw0YS_ZX_Eh4RhGXVbBaxyvA";
 
 function doGet() {
   return ContentService.createTextOutput("امتحان الأجهزة الطرفية — جاهز لاستقبال النتائج");
