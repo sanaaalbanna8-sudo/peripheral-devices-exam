@@ -10,19 +10,10 @@
 جدول النتائج:
 https://docs.google.com/spreadsheets/d/1b3kWogml9sIt4m9IXWpxw0YS_ZX_Eh4RhGXVbBaxyvA/edit
 
-حتى تُحفظ النتائج في هذا الجدول (مرة واحدة):
-1) افتحي جدول الأجهزة الرقمية الذي فيه Apps Script المنشور أصلًا
-2) Extensions → Apps Script
-3) استبدلي الكود بمحتوى digital-devices-exam/google-apps-script.gs المحدّث
-   (فيه نوع peripherals يكتب في جدول الطرفية أعلاه)
-4) نشر → إدارة عمليات النشر → تعديل → إصدار جديد
-   التنفيذ: أنا
-   من يمكنه الوصول: أي شخص
-5) إن طلب Google صلاحيات إضافية لهذا الجدول: وافقي عليها
+الويب أب المنشور:
+https://script.google.com/macros/s/AKfycbwbq_iwOjDfk2ZOCTHtkPp95f2FSDuYLIe9amVY-BCroitD5LHNokRJWpr3jxyjKupB/exec
 
-أو من جدول الطرفية نفسه: Extensions → Apps Script ثم الصقي
-peripheral-devices-exam/google-apps-script.gs وانشري تطبيق ويب جديدًا،
-وانسخي رابط /exec إلى js/config.js
+إذا عدّلتِ السكربت لاحقًا: نشر → إدارة عمليات النشر → تعديل → إصدار جديد.
 
 ستظهر أربع أوراق:
 - امتحان الطرفية - ملخص
