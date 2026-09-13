@@ -92,7 +92,7 @@ const QUESTIONS = [
     topic: "إخراج",
     points: 2,
     prompt: "ما اسم هذا الجهاز؟ ولماذا نحتاجه في محطة العمل؟",
-    image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1200&q=80",
+    image: "img/monitor.jpg",
     imageAlt: "شاشة حاسوب على مكتب",
     options: [
       { id: "a", text: "جهاز عرض (بروجكتر) لقاعة كبيرة", ok: false },
